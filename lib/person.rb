@@ -1,11 +1,11 @@
 class Person
-  def intialize (persons_name)
-    @name = persons_namename 
+  def initialize(name)
+    @name = name
   end
-  def name=(persons_name)
-    @name = persons_name
+  def name=(name)
+    @name=name
   end
-  def persons_name
+  def name
     @name
   end
 end
