@@ -2,10 +2,10 @@ class Person
   def intialize (persons_name)
     @name = persons_namename 
   end
-  def name=(name)
-    @name = name
+  def name=(persons_name)
+    @name = persons_name
   end
-  def name
+  def persons_name
     @name
   end
 end
